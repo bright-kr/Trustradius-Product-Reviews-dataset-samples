@@ -1,86 +1,86 @@
 # Trustradius Product Reviews Dataset Sample
 
-<h2>A sample dataset of 1,118 records</h2>
+<h2>1,118개 레코드로 구성된 샘플 데이터셋</h2>
 
-<a href="https://brightdata.com">
+<a href="https://brightdata.co.kr">
     <img src="https://github.com/luminati-io/Trustradius-Product-Reviews-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
-This **Trustradius Product Reviews Dataset Sample** includes **1,118 records** and was extracted using the **Bright Data API**.
+본 **Trustradius Product Reviews Dataset Sample**에는 **1,118개 레코드**가 포함되어 있으며, **Bright Data API**를 사용하여 추출되었습니다.
 
 ## Data Points
 
 | Field Name | Description |
 |------------|-------------|
-| `url` | The URL of the product review page on TrustRadius. |
-| `product_id` | A unique identifier for the product being reviewed. |
-| `product_name` | The name of the product being reviewed. |
-| `review_id` | A unique identifier for each review. |
-| `review_url` | Direct URL to the specific review on TrustRadius. |
-| `review_title` | Title of the review, summarizing the reviewer's opinion. |
-| `review_rating` | Numeric rating given to the product by the reviewer. |
-| `review_date` | The date when the review was published. |
-| `review_author` | Name of the individual who authored the review. |
-| `author_position` | Professional position or title of the review author. |
-| `author_company_name` | Name of the company where the review author is employed. |
-| `author_company_industry` | Industry classification of the author's company. |
-| `author_company_size` | Size of the author's company, typically by employee count. |
-| `author_labels` | Tags or labels associated with the review author. |
-| `author_experience_years` | Years of experience the author has in their field. |
-| `author_linkedin_url` | LinkedIn profile URL of the review author. |
-| `author_image` | Profile image URL of the review author. |
-| `usecases_deployment_scope` | Scope and context of the product's deployment as described by the reviewer. |
-| `pros` | Positive aspects of the product as highlighted by the reviewer. |
-| `cons` | Negative aspects or limitations of the product as mentioned by the reviewer. |
-| `likelihood_to_recommend` | The reviewer's stated likelihood of recommending the product to others. |
-| `pros_cons` | Overall assessment of pros and cons by the reviewer. |
-| `start_date` | The date when the product was first used by the reviewer. |
-| `updated_date` | The date when the review was last updated. |
-| `author_incentivized` | Indicates whether the review author received any incentive for the review. |
-| `usability_rating` | Rating of the product's usability from the reviewer's perspective. |
-| `return_on_investment` | Reviewer's assessment of the product's return on investment. |
-| `efficiencies_gained` | Efficiencies gained by using the product, as described by the reviewer. |
-| `alternatives_considered` | Other products considered by the reviewer before choosing the current product. |
-| `key_insights` | Important insights shared by the reviewer regarding product usage. |
-| `other_software_used` | Other software mentioned by the reviewer that is used in conjunction with the product. |
-| `users_and_roles` | Information about the users and their roles as described by the reviewer. |
-| `support_headcount_required` | Number of support staff required for the product as noted by the reviewer. |
-| `business_processes_supported` | Business processes that are supported by the product according to the reviewer. |
-| `innovative_uses` | Innovative ways the product is used as described by the reviewer. |
-| `future_planned_uses` | Future uses planned for the product as mentioned by the reviewer. |
-| `likelihood_to_renew` | Reviewer's likelihood of renewing the product license or subscription. |
-| `products_replaced` | Products that were replaced by the current product as mentioned by the reviewer. |
-| `key_differentiators` | Key differentiating features of the product as highlighted by the reviewer. |
-| `implementation_rating` | Rating of the implementation process from the reviewer's viewpoint. |
-| `implementation_partner` | Partner involved in the implementation process, if any. |
-| `implementation_issues` | Issues encountered during the implementation process as noted by the reviewer. |
-| `support_rating` | Rating of the product's support services as given by the reviewer. |
-| `support_pros` | Positive feedback on the support received by the reviewer. |
-| `support_cons` | Negative feedback or limitations of the support as mentioned by the reviewer. |
-| `usability_cons` | Usability challenges or issues highlighted by the reviewer. |
-| `usability_pros` | Positive aspects of the product's usability as noted by the reviewer. |
-| `easy_tasks` | Tasks that are easy to perform using the product as mentioned by the reviewer. |
-| `difficult_tasks` | Tasks that are difficult to perform with the product, according to the reviewer. |
-| `feature_ratings` | Ratings of specific features of the product as provided by the reviewer. |
+| `url` | TrustRadius의 제품 리뷰 페이지 URL입니다. |
+| `product_id` | 리뷰 대상 제품의 고유 식별자입니다. |
+| `product_name` | 리뷰 대상 제품의 이름입니다. |
+| `review_id` | 각 리뷰의 고유 식별자입니다. |
+| `review_url` | TrustRadius에서 특정 리뷰로 바로 이동하는 직접 URL입니다. |
+| `review_title` | 리뷰어의 의견을 요약하는 리뷰 제목입니다. |
+| `review_rating` | 리뷰어가 제품에 부여한 숫자 평점입니다. |
+| `review_date` | 리뷰가 게시된 날짜입니다. |
+| `review_author` | 리뷰를 작성한 개인의 이름입니다. |
+| `author_position` | 리뷰 작성자의 직책 또는 직함입니다. |
+| `author_company_name` | 리뷰 작성자가 재직 중인 회사명입니다. |
+| `author_company_industry` | 작성자 회사의 산업 분류입니다. |
+| `author_company_size` | 작성자 회사의 규모로, 일반적으로 직원 수 기준입니다. |
+| `author_labels` | 리뷰 작성자와 연관된 태그 또는 라벨입니다. |
+| `author_experience_years` | 작성자가 해당 분야에서 보유한 경력 연수입니다. |
+| `author_linkedin_url` | 리뷰 작성자의 LinkedIn 프로필 URL입니다. |
+| `author_image` | 리뷰 작성자의 프로필 이미지 URL입니다. |
+| `usecases_deployment_scope` | 리뷰어가 설명한 제품 배포의 범위와 맥락입니다. |
+| `pros` | 리뷰어가 강조한 제품의 긍정적 측면입니다. |
+| `cons` | 리뷰어가 언급한 제품의 부정적 측면 또는 한계입니다. |
+| `likelihood_to_recommend` | 제품을 다른 사람에게 추천할 가능성에 대한 리뷰어의 진술입니다. |
+| `pros_cons` | 리뷰어가 평가한 장단점에 대한 전반적 평가입니다. |
+| `start_date` | 리뷰어가 제품을 처음 사용하기 시작한 날짜입니다. |
+| `updated_date` | 리뷰가 마지막으로 업데이트된 날짜입니다. |
+| `author_incentivized` | 리뷰 작성자가 리뷰에 대해 인센티브를 받았는지 여부를 나타냅니다. |
+| `usability_rating` | 리뷰어 관점에서의 제품 사용성 평점입니다. |
+| `return_on_investment` | 제품의 투자 대비 수익에 대한 리뷰어의 평가입니다. |
+| `efficiencies_gained` | 제품 사용으로 얻은 효율성 향상 내용으로, 리뷰어가 설명한 항목입니다. |
+| `alternatives_considered` | 현재 제품을 선택하기 전에 리뷰어가 고려한 다른 제품입니다. |
+| `key_insights` | 제품 사용과 관련하여 리뷰어가 공유한 중요한 인사이트입니다. |
+| `other_software_used` | 제품과 함께 사용된다고 리뷰어가 언급한 기타 소프트웨어입니다. |
+| `users_and_roles` | 리뷰어가 설명한 사용자 및 역할에 대한 정보입니다. |
+| `support_headcount_required` | 리뷰어가 언급한 제품 운영에 필요한 지원 인력 수입니다. |
+| `business_processes_supported` | 리뷰어에 따르면 제품이 지원하는 비즈니스 프로세스입니다. |
+| `innovative_uses` | 리뷰어가 설명한 제품의 혁신적인 활용 방식입니다. |
+| `future_planned_uses` | 리뷰어가 언급한 제품의 향후 계획된 사용 방식입니다. |
+| `likelihood_to_renew` | 제품 라이선스 또는 구독을 갱신할 가능성에 대한 리뷰어의 평가입니다. |
+| `products_replaced` | 리뷰어가 언급한, 현재 제품으로 대체된 제품들입니다. |
+| `key_differentiators` | 리뷰어가 강조한 제품의 주요 차별화 요소입니다. |
+| `implementation_rating` | 리뷰어 관점에서의 도입(구현) 프로세스 평점입니다. |
+| `implementation_partner` | 해당되는 경우, 도입(구현) 과정에 참여한 파트너입니다. |
+| `implementation_issues` | 리뷰어가 언급한 도입(구현) 과정에서 발생한 이슈입니다. |
+| `support_rating` | 리뷰어가 부여한 제품 지원 서비스 평점입니다. |
+| `support_pros` | 리뷰어가 받은 지원에 대한 긍정적 피드백입니다. |
+| `support_cons` | 리뷰어가 언급한 지원의 부정적 피드백 또는 한계입니다. |
+| `usability_cons` | 리뷰어가 강조한 사용성 관련 어려움 또는 이슈입니다. |
+| `usability_pros` | 리뷰어가 언급한 제품 사용성의 긍정적 측면입니다. |
+| `easy_tasks` | 리뷰어가 언급한, 제품을 사용해 수행하기 쉬운 작업입니다. |
+| `difficult_tasks` | 리뷰어에 따르면 제품으로 수행하기 어려운 작업입니다. |
+| `feature_ratings` | 리뷰어가 제공한 제품 특정 기능에 대한 평점입니다. |
 
 
 ## Use Cases
 
 ### 1. Market Analysis
-Analyze product reviews to understand market trends and consumer preferences, aiding in competitive analysis and strategy formulation.
+제품 리뷰를 분석하여 시장 트렌드와 소비자 선호도를 파악하고, 경쟁 분석 및 전략 수립에 활용합니다.
 
 ### 2. Product Development
-Utilize detailed customer feedback to identify product strengths and areas for improvement, informing R&D and feature prioritization.
+상세한 고객 피드백을 활용하여 제품의 강점과 개선 영역을 식별하고, R&D 및 기능 우선순위 결정에 반영합니다.
 
 ### 3. Customer Sentiment Analysis
-Conduct sentiment analysis on review data to gauge customer satisfaction and inform customer service improvements.
+리뷰 데이터에 대해 감성 분석을 수행하여 고객 만족도를 측정하고, 고객 서비스 개선에 활용합니다.
 
 
 
 ## File Formats
 
-The dataset is available in multiple formats:
-- **CSV** (included in this sample)
+데이터셋은 여러 형식으로 제공됩니다:
+- **CSV** (본 샘플에 포함)
 - **JSON**
 - **NDJSON**
 - **JSON Lines**
@@ -100,8 +100,8 @@ The dataset is available in multiple formats:
 
 ## Update Frequency
 
-Datasets can be updated on various schedules:
-- **Once** (one-time delivery)
+데이터셋은 다양한 주기로 업데이트할 수 있습니다:
+- **Once** (1회성 제공)
 - **Daily**
 - **Weekly**
 - **Monthly**
@@ -110,14 +110,14 @@ Datasets can be updated on various schedules:
 
 ## Data Enrichment
 
-Enhance your dataset with additional data points based on your specific requirements. Contact us for custom enrichment options.
+특정 요구사항에 따라 추가 데이터 포인트로 데이터셋을 강화할 수 있습니다. 맞춤형 enrichment 옵션은 문의해 주시기 바랍니다.
 
-**[Get the full Trustradius Product Reviews dataset](https://brightdata.com/products/datasets/trustradius)**
+**[전체 Trustradius Product Reviews dataset 받기](https://brightdata.co.kr/products/datasets/trustradius)**
 
 ---
 
 ## Free Access for Researchers and NGOs
 
-The Bright Initiative offers free access to **[Web Scraper APIs](https://brightdata.com/products/web-scraper)** and **[ready-to-use datasets](https://brightdata.com/products/datasets)** for academic researchers, NGOs, and NPOs working on environmental and social causes. 
+Bright Initiative는 환경 및 사회적 목적을 위해 활동하는 학술 연구자, NGO, NPO에 **[Web Scraper APIs](https://brightdata.co.kr/products/web-scraper)** 및 **[ready-to-use datasets](https://brightdata.co.kr/products/datasets)**에 대한 무료 액세스를 제공합니다. 
 
-Apply for free access at [brightinitiative.com](https://brightinitiative.com).
+무료 액세스 신청은 [brightinitiative.com](https://brightinitiative.com)에서 하실 수 있습니다.
